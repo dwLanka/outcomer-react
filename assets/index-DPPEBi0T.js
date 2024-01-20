@@ -340,7 +340,7 @@ attempted value: ${s}
       text-align: center;
     }
   }
-`,o_=()=>N.jsx(i_,{children:N.jsxs("div",{className:"error-content",children:[N.jsx("div",{className:"title",children:"404"}),N.jsxs("div",{className:"message",children:["Please provide your name on the end of the URL.",N.jsx("br",{}),"Ex: chat/yourname"]})]})}),s_=l8([{path:"/",element:N.jsx(w8,{}),errorElement:N.jsx(o_,{}),children:[{path:"/chat/:name",element:N.jsx(r_,{})}]},{}]);function a_(){const e=new k6;return N.jsxs(L6,{client:e,children:[N.jsx(Z5,{children:N.jsx(g8,{router:s_})}),N.jsx(q6,{initialIsOpen:!1})]})}const l_=G5`
+`,o_=()=>N.jsx(i_,{children:N.jsxs("div",{className:"error-content",children:[N.jsx("div",{className:"title",children:"404"}),N.jsxs("div",{className:"message",children:["Please provide your name on the end of the URL.",N.jsx("br",{}),"Ex: chat/yourname"]})]})}),s_=l8([{path:"/outcomer-react/",element:N.jsx(w8,{}),errorElement:N.jsx(o_,{}),children:[{path:"/outcomer-react/chat/:name",element:N.jsx(r_,{})}]},{}]);function a_(){const e=new k6;return N.jsxs(L6,{client:e,children:[N.jsx(Z5,{children:N.jsx(g8,{router:s_})}),N.jsx(q6,{initialIsOpen:!1})]})}const l_=G5`
     // CSS Reset
     * {
     margin: 0;
