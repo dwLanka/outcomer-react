@@ -11,7 +11,7 @@ export const router = createBrowserRouter([
     // loader: rootLoader,
     children: [
       {
-        path: "chat/:name",
+        path: "/chat/:name",
         element: <Chat />,
         // loader: teamLoader,
       },
