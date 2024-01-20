@@ -5,13 +5,13 @@ import Page404 from "../screens/Page404";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/outcomer-react/",
     element: <Layout />,
     errorElement: <Page404 />,
     // loader: rootLoader,
     children: [
       {
-        path: "/chat/:name",
+        path: "/outcomer-react/chat/:name",
         element: <Chat />,
         // loader: teamLoader,
       },
